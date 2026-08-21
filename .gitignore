@@ -1,0 +1,53 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.env.local
+
+# Datasets (large files)
+data/ouc-cge/
+data/OUC-CGE/
+datasets/
+
+# Model weights
+models/*.pt
+*.pt
+models/*.onnx
+models/*.engine
+
+# Outputs (generated)
+outputs/videos/*.mp4
+outputs/videos/*.avi
+outputs/reports/*.json
+outputs/reports/*.csv
+outputs/images/*.jpg
+outputs/images/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ultralytics cache
+runs/
