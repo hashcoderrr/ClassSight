@@ -13,7 +13,7 @@ from src.utils.helpers import (
 class VideoProcessor:
     """Orchestrates video processing with YOLO detection and ByteTrack tracking."""
     
-    def __init__(self, model_name: str = 'yolo11m.pt',
+    def __init__(self, model_name: str = 'yolo11n.pt',
                  confidence: float = 0.4,
                  iou: float = 0.5,
                  frame_skip: int = 1,

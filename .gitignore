@@ -12,9 +12,11 @@ dist/
 build/
 *.egg
 
-# Environment
+# Environment & Local Databases
 .env
 .env.local
+*.db
+*.sqlite
 
 # Datasets (large files)
 data/ouc-cge/
@@ -34,6 +36,15 @@ outputs/reports/*.json
 outputs/reports/*.csv
 outputs/images/*.jpg
 outputs/images/*.png
+
+# Student biometric data (Phase 2)
+data/students/
+data/identities/
+*.npy
+*.pkl
+
+# InsightFace models
+.insightface/
 
 # IDE
 .vscode/
